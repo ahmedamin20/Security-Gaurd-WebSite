@@ -786,6 +786,15 @@ div.gitin i.fa-solid.fa-envelope{
     section.why div.main{
         flex-direction: column;
     }
+    section.why div.main div.icon div.box i.fa-solid.fa-person-rifle,
+    section.why div.main div.icon div.box i.fa-solid.fa-thumbs-up,
+    section.why div.main div.icon div.box i.fa-solid.fa-person-military-pointing,
+    section.why div.main div.icon div.box i.fa-solid.fa-award,
+    section.why div.main div.icon div.box i.fa-solid.fa-helmet-safety,
+    section.why div.main div.icon div.box i.fa-solid.fa-clock-rotate-left{
+        margin: .5rem auto;
+        transform: translateX(-50%);
+    }
     section.why div.main div.icon{
         flex-direction: column;
     }
