@@ -169,8 +169,8 @@ section.about div.big-about{
     margin-top: 1.5rem;
     
 }
-section.about div.big-about div.about{
-    font-size: 3rem;
+section.about div.big-about div.about h3{
+    font-size: 2rem;
 }
 section.about div.main{
     display: flex;
