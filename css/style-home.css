@@ -729,6 +729,9 @@ div.gitin i.fa-solid.fa-envelope{
     font-size: 80%;
     color: var(--font_sub);
 }
+div.gitin a{
+    color: var(--font_sub);
+}
 @media(max-width:825px){
     nav{ height: 15vh;
         align-items: center;
