@@ -865,6 +865,9 @@ footer div.main div.SafetyFirst{
     width: 80%;
     margin: 1.5rem auto;
 }
+    section.more div.big div.disc{
+        text-align: center;
+    }
 footer div.main div.gitin div.big-livk div.link{
     width: 80%;
     margin: 1.5rem auto;
