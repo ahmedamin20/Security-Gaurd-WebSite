@@ -738,6 +738,9 @@ div.gitin a{
         flex-flow: column;
 
     }
+    div.gitin a{
+    color: var(--font_sub);
+}
     div.navig{
         width: 100%;
         margin: 0;
