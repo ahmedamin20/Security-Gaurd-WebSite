@@ -850,11 +850,17 @@ section.secu-offic div.main div.box-left div.text{
 footer div.main{
     flex-direction: column;
 }
-div.link,
-div.links,
-div.SafetyFirst{
+footer div.main div.gitin,
+footer div.main div.links,
+footer div.main div.SafetyFirst{
     width: 80%;
     margin: 1.5rem auto;
+}
+footer div.main div.gitin div.big-livk div.link{
+    width: 80%;
+    margin: 1.5rem auto;
+    display: flex;
+    flex-direction: row;
 }
 }
 
