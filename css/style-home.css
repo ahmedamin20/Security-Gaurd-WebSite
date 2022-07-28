@@ -165,13 +165,6 @@ hr.bet-box{
     opacity: .4;
     margin: .5rem 0;
 }
-section.about div.big-about{
-    margin-top: 1.5rem;
-    
-}
-section.about div.big-about div.about h3{
-    font-size: 2rem;
-}
 section.about div.main{
     display: flex;
     justify-content: center;
@@ -501,12 +494,14 @@ section.subs div.main div.input{
     align-items: center;
     flex-direction: row;
     margin-bottom: 5rem;
+
 }
 section.subs div.main div.input input.email,
 section.subs div.main div.input button.btn{
     height: calc(1.5em + 1rem + 2px);
     padding: 0.5rem 1rem;
     font-size: 1.25rem;
+    background-color: whitesmoke;
 }
 section.subs div.main div.input button.btn{
     margin-left: -.5rem;
@@ -619,7 +614,7 @@ section.secu-offic div.main div.box-left div.name div.icon{
     justify-content: start;
     align-items: center;
     flex-direction: row;
-    width: 98%;
+    width: 30%;
     color: var(--subcolor);
     text-align:start;
     margin: 0;
@@ -745,9 +740,6 @@ div.gitin a{
         flex-flow: column;
 
     }
-    div.gitin a{
-    color: var(--font_sub);
-}
     div.navig{
         width: 100%;
         margin: 0;
@@ -781,6 +773,12 @@ div.gitin a{
     section.more div.big{
         flex-direction: column;
     }
+    section.more div.big div.box{
+        width: 80%;
+    }
+    section.more div.big div.disc{
+        text-align: center;
+    }
     section.services{
         width: 100%;
     }
@@ -791,22 +789,13 @@ div.gitin a{
         flex-direction: column;
     }
     section.services div.main-services div.serv-box{
-        min-width:70%;
+        min-width:90%;
     }
     section.why{
         flex-direction: column;
     }
     section.why div.main{
         flex-direction: column;
-    }
-    section.why div.main div.icon div.box i.fa-solid.fa-person-rifle,
-    section.why div.main div.icon div.box i.fa-solid.fa-thumbs-up,
-    section.why div.main div.icon div.box i.fa-solid.fa-person-military-pointing,
-    section.why div.main div.icon div.box i.fa-solid.fa-award,
-    section.why div.main div.icon div.box i.fa-solid.fa-helmet-safety,
-    section.why div.main div.icon div.box i.fa-solid.fa-clock-rotate-left{
-        margin: .5rem auto;
-        transform: translateX(-50%);
     }
     section.why div.main div.icon{
         flex-direction: column;
@@ -828,6 +817,13 @@ div.gitin a{
         width: 95%;
         flex-direction: column;
     }
+    section.about div.main div.big-about div.about{
+        margin-top: 1.5rem;
+    }
+    section.about div.main div.big-about div.about h3{
+        font-size: 2rem;
+        margin-bottom: .5rem;
+    }
     section.about div.main div.big-about div.about {
         text-align: center;
     }
@@ -847,19 +843,38 @@ div.gitin a{
         margin-left: auto;
         margin-bottom: .5rem;
     }
+    section.why div.icon{
+        width: 99%;
+    }
+    section.why div.icon div.box{
+        widows: 9px;
+    }
     section.why div.main div.why div.img a{
         font-size: 25px;
         margin: 1rem auto;
+        text-align: center;
+    }
+    section.why div.main div.icon div.box i.fa-solid.fa-person-rifle,
+    section.why div.main div.icon div.box i.fa-solid.fa-thumbs-up,
+    section.why div.main div.icon div.box i.fa-solid.fa-person-military-pointing,
+    section.why div.main div.icon div.box i.fa-solid.fa-award,
+    section.why div.main div.icon div.box i.fa-solid.fa-helmet-safety,
+    section.why div.main div.icon div.box i.fa-solid.fa-clock-rotate-left{
+        margin: .5rem auto;
+        transform: translateX(-50%);
+        text-align: center;
+        font-size: 5rem;
     }
     section.secu-offic div.main div.big-box{
         flex-direction: column;
-    justify-content: center;
-    overflow: hidden;
+        justify-content: center;
+        overflow: hidden;
     }
     section.secu-offic div.main div.box,
 section.secu-offic div.main div.box-left{
     width: 50%;
     justify-content: center;
+    margin: 1rem auto;
 }
 section.secu-offic div.main div.box div.text{
     margin-left: 0;
@@ -878,15 +893,13 @@ footer div.main div.SafetyFirst{
     width: 80%;
     margin: 1.5rem auto;
 }
-    section.more div.big div.disc{
-        text-align: center;
-    }
 footer div.main div.gitin div.big-livk div.link{
     width: 80%;
     margin: 1.5rem auto;
     display: flex;
     flex-direction: row;
 }
+
 }
 
 
