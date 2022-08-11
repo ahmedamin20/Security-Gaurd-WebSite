@@ -494,14 +494,12 @@ section.subs div.main div.input{
     align-items: center;
     flex-direction: row;
     margin-bottom: 5rem;
-
 }
 section.subs div.main div.input input.email,
 section.subs div.main div.input button.btn{
     height: calc(1.5em + 1rem + 2px);
     padding: 0.5rem 1rem;
     font-size: 1.25rem;
-    background-color: whitesmoke;
 }
 section.subs div.main div.input button.btn{
     margin-left: -.5rem;
@@ -614,7 +612,7 @@ section.secu-offic div.main div.box-left div.name div.icon{
     justify-content: start;
     align-items: center;
     flex-direction: row;
-    width: 30%;
+    width: 98%;
     color: var(--subcolor);
     text-align:start;
     margin: 0;
@@ -734,11 +732,53 @@ div.gitin i.fa-solid.fa-envelope{
 div.gitin a{
     color: var(--font_sub);
 }
+#upbtn{
+    display: none;
+    color: var(--subcolor);
+    border: none;
+    position: fixed;
+    left: 96%;
+    top:90%;
+    padding: .5rem;
+    background-color: var(--maincolor);
+    border-radius:25% ;
+    text-align: center;
+    animation-name: upbtn;
+    animation-duration: 2s;
+  animation-iteration-count:infinite ;
+  opacity: .75;
+  cursor: pointer;
+}
+#upbtn:hover{
+    opacity: 1;
+    transition: .5s;
+}
+@keyframes upbtn {
+    0%{
+        top: 88%;
+    }
+    50%{
+        top: 90%;
+    }
+    100%{
+        top: 88%;
+    }
+    
+}
+i.fa-solid.fa-circle-chevron-up{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 @media(max-width:825px){
     nav{ height: 15vh;
         align-items: center;
         flex-flow: column;
 
+    }
+    #upbtn{
+        left: 90%;
     }
     div.navig{
         width: 100%;
@@ -773,9 +813,6 @@ div.gitin a{
     section.more div.big{
         flex-direction: column;
     }
-    section.more div.big div.box{
-        width: 80%;
-    }
     section.more div.big div.disc{
         text-align: center;
     }
@@ -789,7 +826,7 @@ div.gitin a{
         flex-direction: column;
     }
     section.services div.main-services div.serv-box{
-        min-width:90%;
+        min-width:70%;
     }
     section.why{
         flex-direction: column;
@@ -817,13 +854,6 @@ div.gitin a{
         width: 95%;
         flex-direction: column;
     }
-    section.about div.main div.big-about div.about{
-        margin-top: 1.5rem;
-    }
-    section.about div.main div.big-about div.about h3{
-        font-size: 2rem;
-        margin-bottom: .5rem;
-    }
     section.about div.main div.big-about div.about {
         text-align: center;
     }
@@ -843,16 +873,9 @@ div.gitin a{
         margin-left: auto;
         margin-bottom: .5rem;
     }
-    section.why div.icon{
-        width: 99%;
-    }
-    section.why div.icon div.box{
-        widows: 9px;
-    }
     section.why div.main div.why div.img a{
         font-size: 25px;
         margin: 1rem auto;
-        text-align: center;
     }
     section.why div.main div.icon div.box i.fa-solid.fa-person-rifle,
     section.why div.main div.icon div.box i.fa-solid.fa-thumbs-up,
@@ -862,19 +885,16 @@ div.gitin a{
     section.why div.main div.icon div.box i.fa-solid.fa-clock-rotate-left{
         margin: .5rem auto;
         transform: translateX(-50%);
-        text-align: center;
-        font-size: 5rem;
     }
     section.secu-offic div.main div.big-box{
         flex-direction: column;
-        justify-content: center;
-        overflow: hidden;
+    justify-content: center;
+    overflow: hidden;
     }
     section.secu-offic div.main div.box,
 section.secu-offic div.main div.box-left{
     width: 50%;
     justify-content: center;
-    margin: 1rem auto;
 }
 section.secu-offic div.main div.box div.text{
     margin-left: 0;
@@ -899,7 +919,6 @@ footer div.main div.gitin div.big-livk div.link{
     display: flex;
     flex-direction: row;
 }
-
 }
 
 
