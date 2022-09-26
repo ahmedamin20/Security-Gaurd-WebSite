@@ -7,6 +7,11 @@
     <title>We Protect You</title>
     <link rel="stylesheet" href="./css/style-home.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <link rel="stylesheet" href="./css/style-home.css">
+    <!--swiper link-->
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
 </head>
 <body>
     <button id="upbtn"><i class="fa-solid fa-circle-chevron-up"></i></button>
@@ -97,8 +102,14 @@
             <h2 class="premium">PREMIUM SECURITY SERVICES</h2>
         </div>
 
-        <div class="main-services">
-            <div class="serv-box">
+
+<!----------------------------------------------------------------------------->
+        
+
+<div class="swiper mySwiper">
+    <div class="main-services swiper-wrapper">
+        <div class="swiper-slide">    
+        <div class="serv-box">
                 <div class="img">
                     <img src="./css/img/service-1.jpg" alt="">
                         <div class="title">
@@ -108,8 +119,10 @@
                 </div>
                 <div class="text">
                     <h5>Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos, rebum sit vero stet ipsum justo et.</h5>
+                </div>
                 </div>  
             </div>
+            <div class="swiper-slide">
             <div class="serv-box">
                 <div class="img">
                     <img src="./css/img/service-2.jpg" alt="">
@@ -120,8 +133,10 @@
                 </div>
                 <div class="text">
                     <h5>Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos, rebum sit vero stet ipsum justo et.</h5>
+                </div>
                 </div>  
             </div>
+            <div class="swiper-slide">
             <div class="serv-box">
                 <div class="img">
                     <img src="./css/img/service-4.jpg" alt="">
@@ -132,8 +147,10 @@
                 </div>
                 <div class="text">
                     <h5>Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos, rebum sit vero stet ipsum justo et.</h5>
+                </div>
                 </div>  
             </div>
+            <div class="swiper-slide">
             <div class="serv-box">
                 <div class="img">
                     <img src="./css/img/service-3.jpg" alt="">
@@ -144,8 +161,10 @@
                 </div>
                 <div class="text">
                     <h5>Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos, rebum sit vero stet ipsum justo et.</h5>
+                </div>
                 </div>  
             </div>
+            <div class="swiper-slide">
             <div class="serv-box">
                 <div class="img">
                     <img src="./css/img/service-1.jpg" alt="">
@@ -156,8 +175,10 @@
                 </div>
                 <div class="text">
                     <h5>Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos, rebum sit vero stet ipsum justo et.</h5>
+                </div>
                 </div>  
             </div>
+            <div class="swiper-slide">
             <div class="serv-box">
                 <div class="img">
                     <img src="./css/img/service-6.jpg" alt="">
@@ -168,9 +189,14 @@
                 </div>
                 <div class="text">
                     <h5>Diam amet eos at no eos sit lorem, amet rebum ipsum clita stet, diam sea est magna diam eos, rebum sit vero stet ipsum justo et.</h5>
+                </div>
                 </div>  
             </div>
         </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
     </section>
 
     <section class="why">
@@ -351,6 +377,11 @@
             </div>
         </div>
     </footer>
+    <!--
+        swiper script
+    -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<!--my js file-->
     <script src="./main.js"></script>
 </body>
 </html>
